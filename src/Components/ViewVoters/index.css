@@ -1,0 +1,50 @@
+.view-votes-bg {
+  height: 100vh;
+}
+
+.view-votes-bg h1{
+  text-align: center;
+}
+
+.candidate-table {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.candidate-table-header {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.candidate-table-cell {
+  text-align: center;
+  width: 50%;
+}
+
+.left-cell {
+  text-align: left;
+}
+
+.view-votes {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.view-votes p {
+  width: ;
+  text-align: center;
+}
+
+.votes-heading {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}

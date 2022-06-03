@@ -1,0 +1,49 @@
+.homepage-bg {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.routing-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: 50px;
+}
+
+.routing-box {
+  padding: 20px 50px;
+  box-shadow: 0 0 8px;
+  min-height: 250px;
+  max-height: 250px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.routing-box h1 {
+  font-family: Roboto;
+}
+
+.routing-button {
+  border: none;
+  background-color: cornflowerblue;
+  height: 50px;
+  min-width: 160px;
+  margin-right: 20px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+}

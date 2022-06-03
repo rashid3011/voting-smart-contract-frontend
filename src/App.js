@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Homepage from "./Components/Homepage";
+import CastVote from "./Components/CastVote";
+import RegisterVoter from "./Components/RegisterVoter";
+import ViewVotes from "./Components/ViewVotes";
+import "./App.css";
+import RegisterCandidate from "./Components/RegisterCandidate";
+import ViewVoters from "./Components/ViewVoters";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/cast-vote" element={<CastVote />} />
+        <Route path="/register-voter" element={<RegisterVoter />} />
+        <Route path="/register-candidate" element={<RegisterCandidate />} />
+        <Route path="/view-candidates" element={<ViewVotes />} />
+        <Route path="/view-voters" element={<ViewVoters />} />
+      </Routes>
     </div>
   );
 }
